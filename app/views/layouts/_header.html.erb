@@ -17,11 +17,11 @@
 
         <ul class="nav">
           <li class="active">
-          <li><%= link_to "Inicio", root_path%></li>
-          <li><%= link_to "Acerca", acerca_path%></li>
+            <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "Inicio", root_path %></li>
+            <li><%= link_to "Acerca", acerca_path%></li>
+          </li>
         </ul>
          
-          
       </div>
  
     </div>
