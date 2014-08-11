@@ -1,4 +1,8 @@
+<% if user_signed_in? %>
 
+<h2> Bienvenido de nuevo al sistema<h2>
+
+<% else %>
 <div class="row">
   <div class="span4">
 
@@ -22,3 +26,4 @@
 		
   </div>
 </div>
+<% end %>
